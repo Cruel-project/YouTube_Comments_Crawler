@@ -71,4 +71,7 @@ for i in range(len(comment_list)):
 pd_data = {"아이디" : id_final , "댓글 내용" : comment_final}
 youtube_pd = pd.DataFrame(pd_data)
 
-youtube_pd.to_excel('Result.xlsx')
+youtube_pd.to_excel('result.xlsx')
+
+# 깃허브 테스트야~
+# 안녕하세요 반갑습니다.
