@@ -1,9 +1,9 @@
 #마지막 아이디 저장
 def save_video_id(input):
-    f = open("video_id.txt", "w")
+    f = open("files/video_id.txt", "w")
     f.write(input)
     f.close()
 #마지막 아이디 불러오기
 def read_last_video_id():
-    f = open("video_id.txt", "r")
+    f = open("files/video_id.txt", "r")
     return (f.read())

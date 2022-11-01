@@ -79,9 +79,9 @@ def get_comments(input):
     pd_data = {"아이디" : id_final , "댓글 내용" : comment_final}
     youtube_pd = pd.DataFrame(pd_data)
 
-    youtube_pd.to_excel('result.xlsx')
+    youtube_pd.to_excel('files/result.xlsx')
     print("="*16)
     print("저장 완료!")
-    print("경로: result.xlsx")
+    print("경로: files/result.xlsx")
     print("="*16)
 
